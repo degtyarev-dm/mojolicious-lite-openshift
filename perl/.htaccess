@@ -7,4 +7,3 @@ RewriteCond %{REQUEST_FILENAME} !-l
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI} !-f
 RewriteRule (.*) /index.pl/$1 [QSA,L]
-#RewriteRule ^(.*)$ index.pl/$1 [L]
