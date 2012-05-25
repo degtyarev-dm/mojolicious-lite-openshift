@@ -24,7 +24,7 @@ Add this upstream mojolite repo
     
 Change _REPO_DIR_ to the content of $OPENSHIFT_REPO_DIR variable in .htaccess file. You can get something like this
 
-    PerlSetVar psgi_app /var/lib/stickshift/____ID____/mojolicious/repo/perl/index.pl
+    PerlSetVar psgi_app /var/lib/stickshift/____ID____/mojolite/repo/perl/index.pl
 
 Where ____ID____ is your 32-character project id.
 
