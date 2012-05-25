@@ -1,4 +1,4 @@
-Dancer on OpenShift
+Mojolicious::Lite on OpenShift
 ===================
 
 This git repository helps you get up and running quickly w/ a Mojolicious::Lite installation
